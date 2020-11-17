@@ -1,0 +1,1107 @@
+@media (max-width: 1440px) {
+    .container{
+        width: 1180px;
+    }
+    .header{
+        &__up{
+            padding: 0;
+            grid-template-columns: 250px repeat(2,272px) 252px repeat(2,181px) 28px;
+            &-header{
+                display: none;
+            }
+            &-subheader{
+                display: none;
+            }
+            &-route{
+                display: none;
+            }
+            &-phone{
+                display: none;
+            }
+            &-social{
+                display: none;
+            }
+        }
+        &__down{
+            grid-template-columns: 408px 706px;
+            column-gap: 323px;
+            &-hamburger{
+                display: none;
+            }
+        }
+        &__phone{
+            display: block;
+            padding-top: 8px;
+            &_1440px{
+                display: block;
+                padding-top: 8px;
+            }
+            
+            &-header{
+                color: #FFFFFF;
+                opacity: 0.7;
+                font-size: 13px;
+                
+            }
+            &-subheader{
+                font-size: 14px;
+                line-height: 100%;
+                color: #FFFFFF;
+                margin-top: 3px;
+                img{
+                    padding-left: 6px;
+                }
+            }
+        }
+    }
+    .promo{
+        &__grid{
+            grid-template-columns: 780px 380px;
+            grid-template-rows: 695px 140px;
+            column-gap: 20px;
+        }
+        &__carousel{
+            grid-template-rows: 585px 85px;
+        }
+        &__offer{
+            grid-template-columns: repeat(3,260px);
+            &-block{
+                width: 260px;
+                padding-right: 65px;
+                &_blue{
+                    width: 260px;
+                    padding-right: 65px;
+                }
+            }
+        }
+        &__secondary-photo{
+            &_1440px{
+                display: block;
+            }
+        }
+        &__radio{
+            column-gap: 70px;
+        }
+        &__star{
+            font-size: 10px;
+        }
+        &__block{
+            width: 380px;
+            &_down{
+                width: 380px;
+                padding-right: 26px;
+            }
+            &-img{
+                padding-right: 40px;
+            }
+        }
+    }
+    .facility{
+        &__grid{
+            grid-template-columns: 780px;
+        }
+    }
+    .standart{
+        &__grid{
+            column-gap: 20px;
+        }
+    }
+    .specifications{
+        &__block{
+            width: 780px;
+        }
+        &__fuel{
+            width: 780px;
+        }
+        &__up{
+            left: 380px;
+        }
+    }
+    .offer{
+        #small-block{
+            width: 780px;
+        }
+        #big-block{
+            width: 780px;
+        }
+        
+        &__input{
+            &-block{
+                width: 250px;
+                &_small{
+                    width: 180px;
+                }
+            }
+        }
+        &__grid{
+            grid-template-columns: repeat(2,350px);
+            &-block{
+                width: 350px;
+            }
+        }
+        &__form{
+            &-block{
+                width: 350px;
+            }
+        }
+        &__star{
+            margin-top: 27px;
+            font-size: 10px;
+            width: 300px;
+            line-height: 12px;
+        }
+    }
+    .program{
+        &__block{
+            width: 780px;
+        }
+        &__interactive{
+            grid-template-columns: repeat(2,350px);
+            grid-column: 17px;
+        }
+        &__divider{
+            width: 720px;
+        }
+        &__form{
+            &-block{
+                width: 350px;
+            }
+        }
+        &__star{
+            margin-top: 21px;
+            width: 336px;
+        }
+        &__btn{
+            width: 350px;
+            padding: 15px 0 0 105px;
+        }
+    }
+    .location{
+        &__wrapper{
+            margin-top: 15px;
+        }
+    }
+    .footer{
+        padding: 40px 0px 0 200px;
+        &__end{
+            width: 330px;
+        }
+        &__grid{
+            grid-template-columns: 727px 372px;
+        }
+        &__name{
+            grid-template-columns: 275px 260px 250px;
+        }
+        &__social{
+            &-icons{
+                width: 330px;
+            }
+        }
+    }
+    .divider{
+        width: 1080px;
+        &_first{
+            width: 1080px;
+        }
+    }
+    .btn{
+        left: 181px;
+        &_secondary{
+            left: 1046px;
+        }
+        &_big{
+            left: 30px;
+            width: 320px;
+        }
+        &_white{
+            left: 30px;
+            width: 320px;
+        }
+    }
+}
+@media (max-width: 1024px) {
+    .container{
+        width: 960px;
+    }
+    .header{
+        &__up{
+            grid-template-columns: 50px 583px repeat(2,181px) 28px;
+        }
+        &__phone{
+            &_1440px{
+               display: none;     
+            }
+        }
+        &__down{
+            grid-template-columns: 265px 706px;
+            column-gap: 50px;
+            &-header{
+                padding-left: 30px;
+                display: block;
+            }
+            &-divider{
+                display: none;
+            }
+            &-logo{
+                padding: 15px 0 0 0;
+            }
+        }
+    }
+    .promo{
+        &__grid{
+            grid-template-columns: 550px 380px;
+            grid-template-rows: 520px 90px;
+            column-gap: 30px;
+        }
+        &__carousel{
+            grid-template-rows: 410px 85px;
+        }
+        &__secondary-photo{
+            &_1440px{
+                display: none;
+            }
+            &_1024px{
+                display: none;
+            }
+        }
+        &__offer{
+            grid-template-columns: repeat(3,184px);
+            &-block{
+                display: block;
+                padding-top: 10px;
+                padding-right: 0;
+                width: 184px;
+                height: 140px;
+                &_blue{
+                    display: block;
+                    padding-top: 10px;
+                    padding-right: 0;
+                    width: 184px;
+                    height: 140px;
+                }
+            }
+            &-text{
+                padding-top: 10px;
+            }
+        }
+    }
+    .equipment{
+        padding-top: 75px;
+        &__grid{
+            grid-template-columns: 244px 308px;
+            &-header{
+                background:none;
+            }
+            &-text{
+                border:none;
+            }
+        }
+    }
+    .facility{
+        &__grid{
+            grid-template-columns: 550px;
+            grid-template-rows: 1106px 58px 338px 58px;
+        }
+    }
+    .standart{
+        &__grid{
+            grid-template-columns: 487px;
+            grid-template-rows: 57px 130px 145px 372px 386px;
+            &-header{
+                grid-column: unset;
+            }
+        }
+    }
+    .specifications{
+        &__block{
+            width: 550px;
+        }
+        &__fuel{
+            width: 550px;
+        }
+        &__up{     
+            left: 280px;
+        }
+    }
+    .offer{
+        #small-block{
+            width: 550px;
+            height: 620px;
+        }
+        #big-block{
+            width: 550px;
+            height: 1040px;
+        }
+        &__block{
+            &-header{
+                width: 450px;
+                font-size: 24px;
+                line-height: 20px; 
+            }
+        }
+        &__header{
+            width: 519px;   
+        }
+        &__input{
+            flex-flow: column;
+            justify-content: space-between;
+            height: 185px;
+            &-block{
+                width: 485px;
+                &_small{
+                    width: 485px;
+                }
+            }
+        }
+        &__form{
+            flex-flow: column;
+            justify-content: space-between;
+            &-block{
+                width: 485px;
+            }
+        }
+        &__btn{
+            right: 140px;
+            bottom: 60px;
+        }
+        &__star{
+            margin-top: 90px;
+            width: 480px;
+        }
+        &__grid{
+            grid-template-columns: 485px;
+            &-block{
+                width: 485px;
+            }
+        }
+        
+    }
+    .program{
+        &__block{
+            width: 550px;
+            height: 774px;
+            &-header{
+                line-height: 20px;
+                width: 445px;
+            }
+        }
+        &__interactive{
+            grid-template-columns: 490px;
+            row-gap: 10px;
+        }
+        &__form{
+            height: 105px;
+            flex-flow: column;
+            &-block{
+                width: 490px;
+            }
+        }
+        &__divider{
+            width: 490px;
+        }
+        &__price{
+            width: 485px;
+        }
+        &__header{
+            width: 525px;
+        }
+        &__conditions{
+            width: 445px;
+        }
+        &__btn{
+            right: 90px;
+            bottom: 70px;
+        }
+        &__star{
+            font-size: 10px;
+            width: 490px;
+            margin-top: 80px;
+        }
+    }
+    .location{
+        &__wrapper{
+            margin-top: -5px;
+        }
+    }
+    .footer{
+        padding: 30px 0 0 20px;
+        &__grid{
+            grid-template-columns: 550px 372px;
+            column-gap: 30px;
+        } 
+        &__name{
+            grid-template-columns: 195px 200px 160px;
+        }
+        &__phone{    
+            padding-left: 50px;
+        }
+    }
+    .btn{
+        &_secondary{
+            left: 633px;
+        }
+    }
+}
+@media (max-width: 768px){
+    .container{
+        width: 700px;
+    }
+    .header{
+        &__up{
+            grid-template-columns: 50px 325px repeat(2,181px) 28px;
+        }
+        &__down{
+            grid-template-columns: 223px 440px;
+            position: relative;
+            &-hamburger{
+                display: block;
+                position: absolute;
+                top: 33px;
+                right: 30px;
+                height: 15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-end;
+                cursor: pointer;
+                span{
+                    display: block;
+                    width: 18px;
+                    height: 3px;   
+                    background: #000000; 
+                    border-radius:33%;
+                }
+            }
+            &-link{
+                &_767px{
+                    display: none;
+                }
+            }
+        }   
+    }
+    .promo{
+        &__grid{
+            grid-template-columns: 700px;
+            grid-template-rows: 545px 160px 600px 200px;
+            row-gap: 0;
+        }
+        &__secondary-photo{
+            display: none;
+        }
+        &__main-photo{
+            &_767px{
+                width: 700px;
+            }
+        }
+        &__arrows{
+            &-dl{
+                &_mini{
+                    display: none;
+                }
+            }
+            &-dr{
+                &_mini{
+                    display: none;
+                }
+            }
+        }
+        &__info{
+            grid-row: 3/4;
+            grid-column: unset;
+            box-shadow: none;
+        }
+        &__offer{
+            grid-template-columns: repeat(3,233px);
+            &-block{
+                width: 233px;
+                &_blue{
+                    width: 233px;
+                }
+            }
+        }
+        &__carousel{
+            grid-template-rows: 525px 20px;
+            row-gap: 0;
+        }
+        &__radio{
+            grid-template-columns: 470px 84px;
+            &-items{
+                width: 290px;
+                img{
+                    bottom: 9px;
+                }
+            }
+            &-text{
+                padding-top: 10px;
+            }
+            #third{
+                bottom: 10px;
+            }
+            #second{
+                bottom: 26px;
+            }
+            &-link{
+                &_down{
+                    padding-left: 210px;
+                }
+            }
+        }
+        &__block{
+            width: 700px;
+            &-text{
+                padding-right: 236px;
+            }
+            &_down{
+                width: 700px;
+                padding-right: 111px;
+            }
+        }
+        &__dots{
+            display: block;
+            position: absolute;
+            bottom: 5px;
+            right: 40%;
+            img{
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+    }
+    .equipment{
+        &__grid{
+            grid-template-columns: 244px 456px;
+        }
+    }
+    .facility{
+        &__grid{
+            grid-template-columns: 701px;
+            
+        }
+    }
+    .standart{
+        &__grid{
+            grid-template-columns: 636px;  
+        }
+    }
+    .specifications{
+        &__block{
+            width: 701px;
+        }
+        &__fuel{
+            width: 701px;
+        }
+        &__up{
+            left: 285px;
+        }
+    }
+    .offer{
+        #small-block{
+            width: 701px;
+            height: 408px;
+        }
+        #big-block{
+            width: 701px;
+            height: 610px;
+        }
+        &__header{
+            width: 460px;
+        }
+        &__block{
+            &-header{
+                width: 388px;
+            }
+        }
+        &__input{
+            flex-flow: row;
+            justify-content: space-between;
+            height: 50px;
+            &-block{
+                width: 232px;
+                &_small{
+                    width: 136px;
+                }
+            }
+        }
+        &__form{
+            flex-flow: row;
+            &-block{
+                width: 310px;
+            }
+        }
+        &__btn{
+            right: 30px;
+            bottom: 40px;
+        }
+        &__star{
+            margin-top: 38px;
+            width: 400px;
+        }
+        &__grid{
+            grid-template-columns: repeat(2,310px);
+            &-block{
+                width: 310px;
+            }
+        }
+        
+    }
+    .program{
+        &__block{
+            width: 701px;
+            height: 580px;
+            &-header{
+                width: 520px;
+            }
+        }
+        &__header{
+            width: 590px;
+        }
+        &__interactive{
+            grid-template-columns: repeat(2,310px);
+            
+        }
+        &__divider{
+            width: 640px;
+        }
+        &__form{
+            flex-flow: row;
+            &-block{
+                width: 310px;
+            }
+        }
+        &__star{
+            margin-top: -30px;
+            width: 310px;
+        }
+        &__btn{
+            width: 255px;
+            padding: 15px 0 0 65px;
+            right: 30px;
+            bottom:15px
+
+        }
+    }
+    .location{
+        &__flex{
+            position: relative;
+        }
+        &__img{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: 221px;
+        }
+        &__header{
+            width: 700px;
+        }
+    }
+    .footer{
+        &__grid{
+            grid-template-columns: 700px;
+            column-gap: 0;
+            row-gap: 30px;
+            grid-template-rows: 270px 128px 126px;
+        }
+        &__name{
+            grid-template-columns: 265px 265px 160px;
+        }
+        &__logo{
+            margin-bottom: 0;
+            &-wrapper{
+                align-items: center;
+            }
+        }
+        &__end{
+            align-items: center;
+            width: 700px;
+
+        }
+        &__develop{
+            margin-bottom: 20px;
+        }
+    }
+    .divider{
+        width: 700px;
+        top: 475px;
+        &_first{
+            width: 700px;
+            top: 735px;
+        }
+    }
+    .btn{
+        &_secondary{
+            left: 375px;
+        }
+        &_white{
+            left: 360px;
+            width: 310px;
+            top: 520px;
+        }
+        &_big{
+            width: 310px;
+            left: 30px;
+        }
+    }
+}
+@media (max-width:480px){
+    .container{
+        width: 440px;
+    }
+    .header{
+        &__up{
+            grid-template-columns: 26px 241px 181px 30px;
+        }
+        &__down{
+            grid-template-columns: 223px 100px;
+            &-link{
+                display: none;
+            }
+            &-hamburger{
+                right: 34px;
+            }
+        }
+    }
+    .promo{
+        &__grid{
+            grid-template-rows: 350px 160px 860px;
+        }
+        &__carousel{
+            width: 432px;
+            grid-template-rows: 330px 20px;
+        }
+        &__main-photo{
+            &_767px{
+                width: 440px;
+            }
+        }
+        &__offer{
+            width: 440px;
+            grid-template-columns: repeat(2,208px);
+            grid-template-rows: repeat(2,70px);
+            column-gap: 16px;
+            row-gap: 20px;
+            &-block{
+                width: 208px;
+                height: 70px;
+                display: flex;
+                justify-content: space-between;
+                padding-left: 7px;
+                padding-top: 0px;
+                &_blue{
+                    width: 208px;
+                    height: 70px; 
+                    padding-left: 7px;
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 0px;
+                    border-radius:6px;
+                }
+                &_none{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 208px;
+                    height: 70px; 
+                    padding-right: 0;
+                    padding-left: 7px;
+                    padding-top: 0px;
+                    img{
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+        &__dots{
+            right: 35%;
+        }
+        &__radio{
+            grid-template-rows: 40px 60px 40px 20px;
+            grid-template-columns: 235px 84px;
+            &-items{
+                width: 166px;
+                img{
+                    bottom: -2px;
+                }
+                #second{
+                    bottom: 18px;
+                }
+                #third{
+                    bottom: -2px;
+                }
+            }
+            &-link{
+                &_down{
+                    padding-left: 100px;
+                }
+            }
+            
+        }
+        &__info{
+            width: 432px;
+            padding: 0;
+            &-divider{
+                width: 432px;
+            }
+            &-text{
+                font-size: 14px;
+            }
+            
+            &__total{
+                width: 440px;
+            }
+        }
+        &__star{
+            width: 432px;
+            margin-top: 155px;
+        }
+        &__block{
+            margin-top: 5px;
+            width: 432px;
+            left: 0;
+            padding-right: 40px;
+            &_down{
+                margin-top: 95px;
+                width: 432px;
+                left: 0;
+                padding-right: 80px;
+            }
+            &-text{
+                padding: 0;
+            }
+            &-img{
+                padding-right: 15px;
+            }
+        }
+        
+    }
+    .equipment{
+        padding-top: 30px;
+        &__grid{
+            grid-template-columns: 206px 222px;
+        }
+    }
+    .facility{
+        &__grid{
+            grid-template-columns: 440px;
+            grid-template-rows: 1106px 58px 370px 58px;
+        }
+    }
+    .standart{
+        &__grid{
+            grid-template-columns: 373px;  
+        }
+    }
+    .specifications{
+        &__block{
+            margin-top: 25px;
+            width: 440px;
+        }
+        &__fuel{
+            width: 440px;
+        }
+        &__up{
+            left: 270px;
+        }
+        &__download{
+            margin-top: 20px;
+            display: block;
+            &-link{
+                padding-left: 12px;
+                padding-right: 12px;
+                color: #00AAD2;
+                text-decoration-line: underline;
+                cursor: pointer;
+            }
+        }
+    }
+    .offer{
+        #small-block{
+            width: 432px;
+            height: 620px;
+            
+        }
+        #big-block{
+            width: 432px;
+            height: 1040px;
+        }
+        &__block{
+            &-header{
+                width: 310px;
+                font-size: 24px;
+                line-height: 20px; 
+            }
+        }
+        &__header{
+            width: 370px;  
+        }
+        &__input{
+            flex-flow: column;
+            justify-content: space-between;
+            height: 185px;
+            &-block{
+                width: 370px;
+                &_small{
+                    width: 370px;
+                }
+            }
+        }
+        &__form{
+            flex-flow: column;
+            justify-content: space-between;
+            &-block{
+                width: 370px;
+            }
+        }
+        &__btn{
+            right: 80px;
+            bottom: 40px;
+        }
+        &__star{
+            font-size: 8px;
+            margin-top: 85px;
+        }
+        &__grid{
+            grid-template-columns: 370px;
+            &-block{
+                width: 370px;
+            }
+        }
+        
+    }
+    .program{
+        &__block{
+            width: 440px;
+            height: 805px;
+            &-header{
+                line-height: 20px;
+                width: 330px;
+                font-size: 25px;
+            }
+        }
+        &__interactive{
+            grid-template-columns: 376px;
+            row-gap: 10px;
+        }
+        &__form{
+            height: 105px;
+            flex-flow: column;
+            &-block{
+                width: 370px;
+            }
+        }
+        &__divider{
+            width: 373px;
+        }
+        &__price{
+            width: 390px;
+            grid-template-columns: 322px 40px;
+            display: grid;
+            &-first{
+                display: flex;
+                justify-content: space-between;
+                grid-column: 1/3;
+            }
+            &-second{
+                display: flex;
+                justify-content: space-between;
+                grid-column: 1/3;
+            }
+            &-third{
+                display: flex;
+                justify-content: space-between;
+                grid-column: 1/3;
+            }
+        }
+        &__header{
+            width: 400px;
+        }
+        &__conditions{
+            width: 400px;
+            &-link{
+                font-size: 19px;
+            }
+            &-text{
+                font-size: 19px;
+            }
+        }
+        &__btn{
+            right: 90px;
+            bottom: 70px;
+        }
+        &__star{
+            font-size: 8px;
+            width: 400px;
+            margin-top: 100px;
+        }
+        
+    }
+    .location{
+        &__flex{
+            position: relative;
+        }
+        &__img{
+            position: absolute;
+            right: 0;
+            top: 147px;
+            height: 221px;
+        }
+        &__header{
+            width: 440px;
+            margin-bottom: 230px;
+        }
+    }
+    .footer{
+        &__grid{
+            grid-template-rows: 310px 128px 126px;
+            grid-template-columns: 440px;
+        }
+        &__name{
+            grid-template-columns: 240px 200px;
+            grid-template-rows: 20px 150px 90px;
+        }
+        &__wrapper{
+            &_last{
+                grid-column: 1/3;
+                display: grid;
+                grid-template-columns: 220px 220px;
+                grid-template-rows: 30px 30px;
+                width: 440px;
+            }
+            &-link{
+                margin-top: 0;
+            }
+        }
+        &__name{
+            &-header{
+                display: none;
+            }
+        }
+        &__social{
+            width: 440px;
+        }
+        &__end{
+            width: 440px;
+        }
+    }
+    .divider{
+        top: 358px;
+        width: 432px;
+        &_first{
+            top: 775px;
+            width: 432px;
+        }
+    }
+    .btn{
+        left: 0;
+        &_secondary{
+            display: none;
+        }
+        &_white{
+            left: 0px;
+            width: 432px;
+            top: 575px;
+        }
+        &_big{
+            left: px;
+            width: 432px;
+        }
+    }
+}

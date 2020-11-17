@@ -1,0 +1,42 @@
+.btn{
+    position: relative;
+    left: 401px;
+    height: 50px;
+    width: 181px;
+    font-size: 13px;
+    line-height: 100%;
+    background-color: $btn-color;
+    font-size: 13px;
+    color: #FFFFFF;
+    border: none;
+    &_secondary{
+        background: #194878;
+        left: 1528px;
+        position: absolute;
+    }
+    &_big{
+        margin-top: 20xp;
+        width: 378px;
+        height: 50px;
+        left: 30px;
+        top: 520px;
+        position: absolute;
+        background: #00AAD2;
+        border-radius: 6px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    &_white{
+        width: 378px;
+        left: 30px;
+        top: 575px;
+        position: absolute;
+        border: 1px solid #00AAD2;
+        background:#ffffff;
+        box-sizing: border-box;
+        border-radius: 6px;
+        font-weight: bold;
+        font-size: 15px;
+        color:#1B1B1B;
+    }
+}

@@ -1,0 +1,26 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+@import 'base/variablse';
+@import 'base/mixins';
+
+*{
+    font-family: 'Hyundai Sans Head Office';
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/btn';
+@import 'blocks/promo';
+@import 'blocks/equipment';
+@import 'blocks/facility';
+@import 'blocks/specifications';
+@import 'blocks/offer';
+@import 'blocks/program';
+@import 'blocks/location';
+@import 'blocks/footer';
+@import 'blocks/media';
